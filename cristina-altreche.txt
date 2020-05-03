@@ -135,9 +135,15 @@ Stretch Questions
     2. What happens when an element is positioned absolutely?
     When an element is positioned absolutely it is considered fixed. 
 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    Use border-box on the element. 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    By default div, h1, and p display block. By default span and image display inline. And a button displays inline-block.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model is the area that wraps around content in HTML. It will be as followed: content < padding < border < margin. Border-box allows the box model
+    to respect the width given. 
 
 
 
